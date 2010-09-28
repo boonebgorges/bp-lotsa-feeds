@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: BP Lotsa Feeds
-Author: Boone Gorges
+Author: boonebgorges
 Author URL: http://boonebgorges.com
 Description: Member comment feeds
 Version: 1.0
