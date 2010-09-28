@@ -101,6 +101,7 @@ function bplf_catcher() {
 	}
 	
 	// Individual forum topic feeds
+	// /groups/groupname/forum/topic/topicslug/feed
 	if ( $bp->current_component == $bp->groups->slug && $bp->current_action == 'forum' && $bp->action_variables[0] == 'topic' && $bp->action_variables[1] && $bp->action_variables[2] == 'feed' ) {
 		global $bplf_topic, $bplf_topic_posts;
 		
