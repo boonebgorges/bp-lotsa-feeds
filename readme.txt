@@ -13,23 +13,23 @@ Gives your BuddyPress installation lotsa feeds.
 BP Lotsa Feeds adds a whole bunch of RSS feeds to your installation of BuddyPress. The following feeds are included with BP Lotsa Feeds (followed by the URL pattern where the feeds can be found):
 
 INDIVIDUAL MEMBERS
-* Networkwide comments by an individual member (/members/username/activity/comments/feed)
-* Networkwide blog posts by an individual member (/members/username/activity/blogposts/feed)
-* Activity updates by an individual member (/members/username/activity/updates/feed)
-* An individual member's friendship connections (/members/username/activity/friendships/feed)
-* Forum topics started by an individual member (/members/username/activity/forumtopics/feed)
-* Forum replies by an individual member (/members/username/activity/forumreplies/feed)
-* All forum activity by a member (a combination of the previous two feeds) (/members/username/activity/forums/feed)
+*	Networkwide comments by an individual member (/members/username/activity/comments/feed)
+*	Networkwide blog posts by an individual member (/members/username/activity/blogposts/feed)
+*	Activity updates by an individual member (/members/username/activity/updates/feed)
+*	An individual member's friendship connections (/members/username/activity/friendships/feed)
+*	Forum topics started by an individual member (/members/username/activity/forumtopics/feed)
+*	Forum replies by an individual member (/members/username/activity/forumreplies/feed)
+*	All forum activity by a member (a combination of the previous two feeds) (/members/username/activity/forums/feed)
 
 INDIVIDUAL GROUPS
-* A group's activity updates (/groups/groupname/updates/feed)
-* New forum topics in a given group (/groups/groupname/forumtopics/feed)
-* Forum replies in a given group (/groups/groupname/forumreplies/feed)
-* All forum activity in a given group (a combination of the previous two feeds) (/groups/groupname/forums/feed)
-* A group's new members (/groups/groupname/membership/feed)
+*	A group's activity updates (/groups/groupname/updates/feed)
+*	New forum topics in a given group (/groups/groupname/forumtopics/feed)
+*	Forum replies in a given group (/groups/groupname/forumreplies/feed)
+*	All forum activity in a given group (a combination of the previous two feeds) (/groups/groupname/forums/feed)
+*	A group's new members (/groups/groupname/membership/feed)
 
 FORUMS
-* Individual forum topic posts (/groups/groupname/forum/topic/topicslug/feed)
+*	Individual forum topic posts (/groups/groupname/forum/topic/topicslug/feed)
 
 You can make any of these feeds inaccessible by defining the corresponding DISABLE constant in plugins/bp-custom.php or wp-config.php, e.g.
 `define( 'BPLF_DISABLE_GROUP_UPDATES_FEED', true )`
