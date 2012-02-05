@@ -68,7 +68,7 @@ function bplf_catcher() {
 	}
 
 	// Group activity feeds
-	if ( bp_is_groups_component() && $bp->groups->current_group->id && bp_action_variable( 0 ) == 'feed' ) {
+	if ( bp_is_groups_component() && isset( $bp->groups->current_group->id ) && bp_action_variable( 0 ) == 'feed' ) {
 
 		switch ( bp_current_action() ) {
 
