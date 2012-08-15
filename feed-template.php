@@ -18,7 +18,7 @@ header('Status: 200 OK');
 >
 
 <channel>
-	<title><?php echo bp_site_name() ?> | <?php echo $bp->displayed_user->fullname; ?> | <?php _e( 'Comments', 'buddypress' ) ?></title>
+	<title><?php echo bp_site_name() ?> | <?php bplf_feed_secondary_title(); ?> | <?php bplf_feed_tertiary_title(); ?></title>
 	<atom:link href="<?php self_link(); ?>" rel="self" type="application/rss+xml" />
 	<link><?php bplf_feed_url() ?></link>
 	<description><?php bplf_feed_name() ?></description>

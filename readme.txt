@@ -13,6 +13,7 @@ Gives your BuddyPress installation lotsa feeds.
 BP Lotsa Feeds adds a whole bunch of RSS feeds to your installation of BuddyPress. The following feeds are included with BP Lotsa Feeds (followed by the URL pattern where the feeds can be found):
 
 INDIVIDUAL MEMBERS
+
 *	Networkwide comments by an individual member (/members/username/activity/comments/feed)
 *	Networkwide blog posts by an individual member (/members/username/activity/blogposts/feed)
 *	Activity updates by an individual member (/members/username/activity/updates/feed)
@@ -22,6 +23,7 @@ INDIVIDUAL MEMBERS
 *	All forum activity by a member (a combination of the previous two feeds) (/members/username/activity/forums/feed)
 
 INDIVIDUAL GROUPS
+
 *	A group's activity updates (/groups/groupname/updates/feed)
 *	New forum topics in a given group (/groups/groupname/forumtopics/feed)
 *	Forum replies in a given group (/groups/groupname/forumreplies/feed)
@@ -29,6 +31,7 @@ INDIVIDUAL GROUPS
 *	A group's new members (/groups/groupname/membership/feed)
 
 FORUMS
+
 *	Individual forum topic posts (/groups/groupname/forum/topic/topicslug/feed)
 
 You can make any of these feeds inaccessible by defining the corresponding DISABLE constant in plugins/bp-custom.php or wp-config.php, e.g.
@@ -47,6 +50,8 @@ Follow the plugin's development at http://github.com/boonebgorges/bp-lotsa-feeds
 
 == Changelog ==
 
-= 1.0 =
+= 1.1 =
+* BuddyPress 1.5 compatibility. BP 1.2.x users should stick with v1.0.
 
+= 1.0 =
 * Initial release
